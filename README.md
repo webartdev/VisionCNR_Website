@@ -1,3 +1,7 @@
+## Author: Elena Pearson
+## Project Name: VisionCNR
+**ReactJS website featuring a local clinic**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
