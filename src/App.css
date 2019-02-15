@@ -1,27 +1,156 @@
 .App {
+  text-align: left;
+  
+}
+
+body {
+  background-color: #ccc;
+}
+
+h1 {
+  font-size: 28px;
+  color: #336699;
+  font-weight: normal;
+  font-family: Verdana, sans-serif;
+}
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #336699;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-family: Verdana, sans-serif;
+  text-align: left;
+}
+h3 {
+  font-size: 16px;
+  color: #336699;
+  font-weight: bolder;
+  font-family: Verdana, sans-serif;
+}
+h4 {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: Verdana, sans-serif;
+} 
+h5 {
+  font-size: 14px;
+  line-height: 1.375em;
+  color: #336699;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: Verdana, sans-serif;
+} 
+
+.containerMain {
+  margin: 20px;
+  width: 100%
+}
+
+.titleMain {
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
   text-align: center;
+  color: #336699;
+  padding:20px;
+}
+
+.containerInner {
+  margin: 10px;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+  height: 80px;
+  top:2px;
+  margin-right: 140px;
+  width: 80px;
+}
+
+.is-active {
+ font-weight: bold;
+ text-decoration: 'none'
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #336699;
+  min-height: 60px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0px;
+  padding-top: 5px;
+  text-decoration: 'none',
+}
+
+.buttonNav {
+  flex: 1;
+  padding: 6px;
+  background-color: #336699;
+  border-radius: 5;
+  border-width: 1;
+  border-color: #007aff;
+  margin: 0px;
+  align-self: stretch;
+  text-decoration: 'none';
+}
+
+.buttonText {
+  flex: 1;
+  padding: 8px;
+  margin-left: 5;
+  margin-right: 5;
+  align-self: stretch;
+  text-decoration: 'none';
+  color: #fff;
+  font-size: 14px;
+}
+
+.textareaStyle{
+  padding: 8px;
+  max-width:300px;
+  width:100%;
+}
+.inputStyle{
+  padding: 8px;
+  max-width:300px;
+  width:100%;
+}
+li {
+  text-decoration: 'none';
+  list-style: none;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ccc;
+  height:10px;
+  width:100%;
+  padding: 10px;
+  margin: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  top:10px;
+  text-underline-position: above;
+  text-decoration: 'none';
+  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+
 }
+
+
 
 @keyframes App-logo-spin {
   from {
