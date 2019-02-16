@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { createPost } from '../actions/postActions';
-import Button from './Button';
 
 class PostForm extends Component {
   constructor(props) {
@@ -52,7 +51,7 @@ class PostForm extends Component {
                 className="textareaStyle" />
             </div>
             <br />
-            <Button type="submit">Submit</Button>
+            <button type="submit">Submit Testimonial</button>
           </form>
         </div>
       </div>
