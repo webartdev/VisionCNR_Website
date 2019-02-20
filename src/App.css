@@ -133,7 +133,8 @@ h5 {
 
 .is-active {
  font-weight: bold;
- text-decoration: 'none'
+ text-decoration: 'none';
+ color: white;
 }
 
 .App-header {
@@ -154,10 +155,10 @@ h5 {
 .buttonNav {
   flex: 1;
   padding: 6px;
-  background-color: #336699;
+  background-color: #ffffff;
   border-radius: 5;
   border-width: 1;
-  border-color: #007aff;
+  border-color: #ffffff;
   margin: 0px;
   align-self: stretch;
   text-decoration: 'none';
@@ -187,6 +188,7 @@ h5 {
 li {
   text-decoration: 'none';
   list-style: none;
+  color:white;
 }
 
 .App-link {

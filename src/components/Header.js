@@ -17,10 +17,10 @@ class Header extends Component {
             WebDevPlus
           </p> */}
           <nav className="App-header">
-            <NavLink className="App-link" activeClassName='is-active' exact={true} to='/'>Home</NavLink>
-            <NavLink className="App-link" activeClassName='is-active' to='/testimonials'>Testimonials</NavLink>
+            <NavLink className="App-link" style={{color:'#cccccc'}} activeClassName='is-active' exact={true} to='/'>Home</NavLink>
+            <NavLink className="App-link" style={{color:'#cccccc'}} activeClassName='is-active' to='/testimonials'>Testimonials</NavLink>
             {/* <NavLink className="App-link" activeClassName='is-active' to='/edit'>Edit</NavLink> */}
-            <NavLink className="App-link" activeClassName='is-active' to='/appointments'>Appointments</NavLink>  
+            <NavLink className="App-link" style={{color:'#cccccc'}} activeClassName='is-active' to='/appointments'>Appointments</NavLink>  
             {/* <NavLink className="App-link" activeClassName='is-active' to='/create'>Testimonials</NavLink>
             <NavLink className="App-link" activeClassName='is-active' to='/help'>Schedule Appointment</NavLink> */}
           </nav>
