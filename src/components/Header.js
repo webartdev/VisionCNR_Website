@@ -16,7 +16,7 @@ class Header extends Component {
           {/* <p className="App-logo">
             WebDevPlus
           </p> */}
-          <nav className="App-header">
+          <nav className="App-header fixed-top">
             <NavLink className="App-link" style={{color:'#cccccc'}} activeClassName='is-active' exact={true} to='/'>Home</NavLink>
             <NavLink className="App-link" style={{color:'#cccccc'}} activeClassName='is-active' to='/testimonials'>Testimonials</NavLink>
             {/* <NavLink className="App-link" activeClassName='is-active' to='/edit'>Edit</NavLink> */}

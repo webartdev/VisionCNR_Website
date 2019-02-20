@@ -173,6 +173,7 @@ border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;
   }
   .container-fluid {
       padding: 40px 40px;
+     
   }
   .bg-grey {
       background-color: #f6f6f6;
