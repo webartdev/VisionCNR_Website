@@ -24,7 +24,6 @@ class Home extends React.Component {
         const { count } = this.state
         return (
             <div className="containerMain">
-                <span className="titleMain">Welcome</span>
                 {/* <h1> Welcome</h1>
                 <div onClick={this.countClicks}>
                     Click here to increment the counter
@@ -34,15 +33,24 @@ class Home extends React.Component {
                 <h4>You clicked {count} times</h4> */}
 
                 {/* Start Container (Home Section)  */}
-                <div id="home" align="left" style={{ backgroundColor: '#fff' }}>
+                <div id="home" align="center" style={{ backgroundColor: '#fff' }}>
                     <div className="row text-center">
+                        <div className="col-sm-4">
+                            <img src={require("../images/logos/VisionCNR_LOGO_web.jpg")} width="100%" alt="Logo VisionCNR" />
+                        </div>
+                        <div className="col-sm-8">
+                            <br />
+                            <div className="bold-text">Functional Vision Evaluations, <br />Vision Therapy, Vision Training,<br /> and Neuro-Optometric Rehabilitation and Treatment Services<br /> in Bellevue and Bothell, WA</div><br />
+                        </div>
 
+                        <br />
                     </div>
+                    <br />
                     <div className="row">
                         <div className="col-sm-2">
                             <div className="imgBg text-center">
-                                <h6><a href="about_doctors.php">About<br />Our Clinic</a></h6>
-                                <a href="about_doctors.php">
+                                <h6><a href="#about">About<br />Our Clinic</a></h6>
+                                <a href="#about">
                                     <img alt="Dr. Alan P. Pearson" width="100%"
                                         height="100%" src={require("../images/photos/img_Dr.AlanPearson.jpg")} className="img-responsive"
                                         style={{ maxWidth: 300 }} />
@@ -93,35 +101,34 @@ class Home extends React.Component {
 
                         <div className="col-sm-2">
                             <div className="imgBg text-center">
-                                <h6><a href="appointment.php">Schedule Appointment</a></h6>
-                                <a href="appointment.php">
+                                <h6><a href="/appointments">Schedule Appointment</a></h6>
+                                <a href="/appointments">
                                     <img alt="Schedule Evaluation" width="100%"
                                         height="100%" src={require("../images/photos/schedule.jpg")} style={{ maxWidth: 300 }} />
                                 </a>
-                                <br /><br />
+                                
                             </div>
                         </div>
                     </div>
+                    <br /><br />
                 </div>
                 {/* END  Container (Home Section)  */}
                 {/* <!-- Container (About Section) --> */}
-                <div className="container-fluid bg-grey">
-                    <div className="row"> <div className="h1">ABOUT OUR CLINIC</div><br />
+                <div id="about" className="container-fluid bg-grey">
+                <div className="titleMain">ABOUT OUR CLINIC</div><br />
+                    <div className="row"> 
                         <div className="col-sm-8">
-                            <div className="h4">Vision Clinics of Development and Learning in Bellevue and Bothell, WA offers Functional
+                            <div className="body-text">Vision Clinics of Development and Learning in Bellevue and Bothell, WA offers Functional
                             Vision Evaluations and Vision Therapy treatment services. We provide evaluation and treatment of
                             visual skills dysfunctions, especially related to special needs, autism, learning disabilities,
                             dyslexia, attention deficit, ADHD, and academic / vocational performance, reading, writing, dysgraphia,
                              lazy eye, strabismus, and aquired brain injury. Clinic and / or home-based therapy and training solutions offered.
                              Dr. Alan Pearson has more than 25 years of experience in functional vision and therapy.
        <br /><br />Vision is involved in most everything we do in life. Do you or your child struggle with school,
-                                                                                                            work, attention, or the enjoyment of life?
-                                                                                                            Consider how many hours of the day are spent working with books, papers, and computer screens.
-                                                                                                            Visual skills are critical for the tremendous demands on focus, attention, and thinking that are
-                                                                                                            needed for success today.</div>
-
-                            <h5><a className="btn btn-success" href="about_doctors.php" target="_blank">Learn more about Dr. Pearson</a></h5>
-
+                                                          work, attention, or the enjoyment of life?
+                                                         Consider how many hours of the day are spent working with books, papers, and computer screens.
+                         Visual skills are critical for the tremendous demands on focus, attention, and thinking that are
+       needed for success today.</div>
                         </div>
                         <div className="col-sm-4">
                             <a href="reading.php"><img className="img-responsive img-rounded" width="100%"
@@ -131,55 +138,75 @@ class Home extends React.Component {
                 </div>
 
                 <div id="evaluations" className="container-fluid">
-                    <div className="row"><h1 className="text-center">EVALUATIONS</h1><br />
+                <div className="titleMain">EVALUATIONS</div><br />
+                    <div className="row">
                         <div className="col-sm-4">
-                            <img className="img-responsive img-rounded" src="images/IMG_girls%20in%20VT%20copy.jpg" />
+                            <img className="img-responsive img-rounded" 
+                            src={require("../images/photos/IMG_girlsVT.jpg")} width="100%" alt="Functional Vision Evaluation"/>
                         </div>
                         <div className="col-sm-8">
-                            <h4><strong>FUNCTIONAL VISION EVALUATIONS:</strong> A Functional Vision Evaluation is different than an ordinary eye exam. A child that is struggling developmentally or academically, or a child that is receiving physical, occupational, or speech therapy should have a functional vision evaluation to assess vision issues that could be present.</h4><br />
-                            <a className="btn btn-success" href="evaluations.php">More Information about<br /><b>Functional Vision Evaluations</b> </a>
+                        <div className="body-text"><strong>FUNCTIONAL VISION EVALUATIONS:</strong> 
+                        A Functional Vision Evaluation is different than an ordinary eye exam.
+                         A child that is struggling developmentally or academically, or a child 
+                         that is receiving physical, occupational, or speech therapy should have a 
+                         functional vision evaluation to assess vision issues that could be present.
+                         <br/><br/>
+                        <strong> A functional vision evaluation looks at issues such as</strong>:
+                         <ul>
+                             <li>Two eye coordination / Binocular Skills</li>
+                             <li>Lazy Eye, Eye Turns</li>
+                             <li>Focusing Skills Near and Far</li>
+                             <li>Eye Tracking / Eye Hand / Vision and Vestibular / Visual Motor Skills</li>
+                             <li>Integration of vision with other sensory and motor skills</li>
+                             <li>Visual Perception / Visual Information Processing / Cognitive and Thinking Skills</li>
+                             <li>Visual Attention / Vigilance / Comfort and Efficiency with near activities</li>
+                             <li>Visual Emotional / Awareness of Social Cues / Perceptual Anxieties / Behavioral Issues</li>
+                         </ul>
+                         
+                         </div><br />
+                           
                         </div>
+
                     </div>
                 </div>
 
                 {/* <!-- Container (Services Section) --> */}
                 <div id="therapy" className="container-fluid text-center bg-grey">
-                    <h1>THERAPY</h1>
-                    <h4>What we offer</h4>
+                <div className="titleMain">THERAPY</div>
                     <br />
                     <div className="row">
                         <div className="col-sm-4">
-                            <a href="visiontraining.php"><img src={require("../images/thumbs/thumb_swing.jpg")} alt="vision therapy" /></a>
-                            <h4><a href="visiontraining.php">VISION THERAPY AND VISION TRAINING</a></h4>
-                            <p>A full scope of vision training intervention techniques involving both medical procedures as well as skills enhancement techniques.</p>
+                            <img src={require("../images/thumbs/thumb_swing.jpg")} alt="vision therapy" />
+                            <div className="titleNav"><strong>VISION THERAPY AND VISION TRAINING</strong></div>
+                            <div>A full scope of vision training intervention techniques involving both medical procedures as well as skills enhancement techniques.</div>
 
                         </div>
                         <div className="col-sm-4">
-                            <a href="visiontraining.php"><img src={require("../images/thumbs/thumb_flipperRotator.jpg")} alt="therapeutic procedures" /></a>
-                            <h4><a href="visiontraining.php">THERAPEUTIC PROCEDURES</a></h4>
+                            <img src={require("../images/thumbs/thumb_flipperRotator.jpg")} alt="therapeutic procedures" />
+                            <div className="titleNav"><strong>THERAPEUTIC PROCEDURES</strong></div>
                             <p>Medically based best-practice procedures suitable for insurance coverage.</p>
                         </div>
                         <div className="col-sm-4">
-                            <a href="educational.php"><img src={require("../images/thumbs/thumb_VisionInReading.jpg")} alt="programs" /></a>
-                            <h4><a href="educational.php">EDUCATIONAL SERVICES</a></h4>
-                            <p>iStar Reading Club to enhance reading foundations, fluency, & comprehension.</p>
+                            <img src={require("../images/thumbs/thumb_VisionInReading.jpg")} alt="programs" />
+                            <div className="titleNav"><strong>EDUCATIONAL SERVICES</strong></div>
+                            <p>iStar Reading Club to enhance reading foundations, fluency, and comprehension.</p>
                         </div>
                     </div>
                     <br /><br />
                     <div className="row">
                         <div className="col-sm-4">
-                            <a href="atadistance.php"><img src={require("../images/thumbs/Thumb_therapyComputer.jpg")} alt="at-a-distance options" /></a>
-                            <h4><a href="atadistance.php">AT-A-DISTANCE OPTIONS</a></h4>
+                            <img src={require("../images/thumbs/Thumb_therapyComputer.jpg")} alt="at-a-distance options" />
+                            <div className="titleNav"><strong>AT-A-DISTANCE OPTIONS</strong></div>
                             <p>We can still help many patients who live far away.</p>
                         </div>
                         <div className="col-sm-4">
-                            <a href="collaboration.php"><img src={require("../images/thumbs/thumb_emotional.jpg")} alt="professional collaboration" /></a>
-                            <h4><a href="collaboration.php">INTERDISCIPLINARY COLLABORATION</a></h4>
+                            <img src={require("../images/thumbs/thumb_emotional.jpg")} alt="professional collaboration" />
+                            <div className="titleNav"><strong>INTERDISCIPLINARY COLLABORATION</strong></div>
                             <p>We can work with teams to suggest vision related goals and intervention techniques.</p>
                         </div>
                         <div className="col-sm-4">
-                            <a href="tools.php"><img src={require("../images/thumbs/thumb_tools.jpg")} alt="tools" /></a>
-                            <h4 style={{ color: '#303030' }}><a href="tools.php">TRADITIONAL and HIGH TECH TOOLS</a></h4>
+                    <img src={require("../images/thumbs/thumb_tools.jpg")} alt="tools" />
+                            <div className="titleNav"><strong>TRADITIONAL and HIGH TECH TOOLS</strong></div>
                             <p>We use traditional vision therapy tools as well as new technologies such as Eye Gaze Tracking and Virtual Reality.</p>
                         </div>
                     </div>
@@ -187,11 +214,10 @@ class Home extends React.Component {
 
                 {/* <!-- Container (Referrals Section) --> */}
                 <div id="referrals" className="container-fluid text-center">
-                    <h1>REFERRALS</h1><br />
+                <div className="titleMain">REFERRALS</div><br />
                     <p><a className="btn btn-success" href="images/ReferralForm_2018.pdf" target="_blank">
                         Download our<br /><b>PROFESSIONAL REFERRAL FORM</b></a>  </p>
                     <br />
-
                     <div className="row text-left">
                         <div className="row">
                             <div className="col-sm-2"></div>
@@ -209,7 +235,7 @@ class Home extends React.Component {
                 {/* <!-- Container (Pricing Section) --> */}
                 <div id="insurance" className="container-fluid bg-grey">
                     <div className="text-center">
-                        <div className="h1">INSURANCE</div>
+                    <div className="titleMain">INSURANCE</div>
                         <h4>Some of our services may be covered by insurance</h4>
                     </div>
                     <div className="row">
@@ -275,35 +301,7 @@ class Home extends React.Component {
                     </div>
                 </div>
 
-                {/* <!-- Container (Contact Section) --> */}
-                <div id="contact" className="container-fluid">
-                    <h1 className="text-center">LOCATIONS and CONTACT</h1> <br />
-                    <div className="row">
-                        <div className="col-sm-5">
-                            <p><span className="glyphicon glyphicon-phone"></span><strong>: 425-213-1016 - for all clinics  </strong></p>
-                            <p><strong> FAX:  425-949-4491</strong></p>
-                            <p><span className="glyphicon glyphicon-envelope"></span> info@visioncdl.com</p>
-                            <p><span className="glyphicon glyphicon-map-marker"></span> BELLEVUE<br />Executive Plaza<br />12835 Bel-Red Rd. STE 303, Bellevue, WA 98005</p>
-                            <p>
-                                <iframe frameborder="0" height="200" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2689.275845022955!2d-122.1685307!3d47.620768999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906c57f1884831%3A0x935367d2af5eb202!2s12835+Bel-Red+Rd+%23303%2C+Bellevue%2C+WA+98005!5e0!3m2!1sen!2sus!4v1410475026903" />
-                            </p>
-                            <p><span className="glyphicon glyphicon-map-marker"></span> BOTHELL<br />Kaufman Medical Building<br />18920 Bothell Way NE STE 203, Bothell, WA 98011</p>
-                            <p>
-                                <iframe frameborder="0" height="200" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2681.821147446864!2d-122.20868200000001!3d47.7655234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54900e43cdb3166b%3A0x358fe902fcf91bfa!2s18920+NE+Bothell+Way+%23203%2C+Bothell%2C+WA+98011!5e0!3m2!1sen!2sus!4v1410475103425"></iframe>
-                            </p>
-                            <p></p>
-                        </div>
-                        <div className="col-sm-1"> </div>
-                        <div className="col-sm-6">
-                            <div className="imgBg text-center">
-                                <h4><a href="appointment.php">Schedule Appointment</a></h4>
-                                <a href="appointment.php"><img src="images/photos/schedule.jpg" style={{ maxWidth: 300 }} /></a>
-                                <br /><br />
-                                <a href="appointment.php"><div className="btn btn-success">Schedule</div></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         )
     }

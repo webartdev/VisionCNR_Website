@@ -32,8 +32,8 @@ class PostForm extends Component {
 
   render() {
     return (
-      <div className="containerMain">
-        <div className="imgBg text-center">
+      <div className="container-fluid">
+        <div className="imgBg bg-grey text-center">
         <br/>
           <form onSubmit={this.onSubmit}>
             <div>
