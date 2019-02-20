@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 //import '../../src/App.css';
 import { NavLink } from 'react-router-dom';
+import '../../src/css/visioncdl.css';
 //import Button from './Button';
 
 
 class Header extends Component {
   render() {
     return (
-
-      <div className="Header">
-
-        <header className="App-header">
+<div className="containerMain"> 
+       {/* <div className="Header"> */}
+{/* <div className="containerMain"> */}
+        <header >
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           {/* <p className="App-logo">
             WebDevPlus
