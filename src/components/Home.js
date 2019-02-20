@@ -106,27 +106,26 @@ class Home extends React.Component {
                 {/* END  Container (Home Section)  */}
                 {/* <!-- Container (About Section) --> */}
                 <div className="container-fluid bg-grey">
-                    <div className="row"> <h1 className="text-center">ABOUT OUR CLINIC</h1><br />
+                    <div className="row"> <div className="h1">ABOUT OUR CLINIC</div><br />
                         <div className="col-sm-8">
-                            <h4>Vision Clinics of Development and Learning in Bellevue and Bothell, WA offers Functional
+                            <div className="h4">Vision Clinics of Development and Learning in Bellevue and Bothell, WA offers Functional
                             Vision Evaluations and Vision Therapy treatment services. We provide evaluation and treatment of
                             visual skills dysfunctions, especially related to special needs, autism, learning disabilities,
                             dyslexia, attention deficit, ADHD, and academic / vocational performance, reading, writing, dysgraphia,
                              lazy eye, strabismus, and aquired brain injury. Clinic and / or home-based therapy and training solutions offered.
                              Dr. Alan Pearson has more than 25 years of experience in functional vision and therapy.
        <br /><br />Vision is involved in most everything we do in life. Do you or your child struggle with school,
-                                                                                   work, attention, or the enjoyment of life?
-                                                                                   Consider how many hours of the day are spent working with books, papers, and computer screens.
-                                                                                   Visual skills are critical for the tremendous demands on focus, attention, and thinking that are
-                                                                                   needed for success today.
-       </h4>
+                                                                                                            work, attention, or the enjoyment of life?
+                                                                                                            Consider how many hours of the day are spent working with books, papers, and computer screens.
+                                                                                                            Visual skills are critical for the tremendous demands on focus, attention, and thinking that are
+                                                                                                            needed for success today.</div>
 
                             <h5><a className="btn btn-success" href="about_doctors.php" target="_blank">Learn more about Dr. Pearson</a></h5>
 
                         </div>
                         <div className="col-sm-4">
                             <a href="reading.php"><img className="img-responsive img-rounded" width="100%"
-         src={require("../images/photos/btnLearnMoreAll.jpg")} alt="Learn More About" /></a>
+                                src={require("../images/photos/btnLearnMoreAll.jpg")} alt="Learn More About" /></a>
                         </div>
                     </div>
                 </div>
@@ -161,7 +160,7 @@ class Home extends React.Component {
                             <p>Medically based best-practice procedures suitable for insurance coverage.</p>
                         </div>
                         <div className="col-sm-4">
-                            <a href="educational.php"><img src={require("../images/thumbs/thumb_VisionInReading.jpg")} alt="programs"/></a>
+                            <a href="educational.php"><img src={require("../images/thumbs/thumb_VisionInReading.jpg")} alt="programs" /></a>
                             <h4><a href="educational.php">EDUCATIONAL SERVICES</a></h4>
                             <p>iStar Reading Club to enhance reading foundations, fluency, & comprehension.</p>
                         </div>
@@ -174,12 +173,12 @@ class Home extends React.Component {
                             <p>We can still help many patients who live far away.</p>
                         </div>
                         <div className="col-sm-4">
-                            <a href="collaboration.php"><img src={require("../images/thumbs/thumb_emotional.jpg")} alt="professional collaboration"/></a>
+                            <a href="collaboration.php"><img src={require("../images/thumbs/thumb_emotional.jpg")} alt="professional collaboration" /></a>
                             <h4><a href="collaboration.php">INTERDISCIPLINARY COLLABORATION</a></h4>
                             <p>We can work with teams to suggest vision related goals and intervention techniques.</p>
                         </div>
                         <div className="col-sm-4">
-                            <a href="tools.php"><img src={require("../images/thumbs/thumb_tools.jpg")} alt="tools"/></a>
+                            <a href="tools.php"><img src={require("../images/thumbs/thumb_tools.jpg")} alt="tools" /></a>
                             <h4 style={{ color: '#303030' }}><a href="tools.php">TRADITIONAL and HIGH TECH TOOLS</a></h4>
                             <p>We use traditional vision therapy tools as well as new technologies such as Eye Gaze Tracking and Virtual Reality.</p>
                         </div>
@@ -210,7 +209,7 @@ class Home extends React.Component {
                 {/* <!-- Container (Pricing Section) --> */}
                 <div id="insurance" className="container-fluid bg-grey">
                     <div className="text-center">
-                        <h1>INSURANCE</h1>
+                        <div className="h1">INSURANCE</div>
                         <h4>Some of our services may be covered by insurance</h4>
                     </div>
                     <div className="row">
@@ -306,7 +305,6 @@ class Home extends React.Component {
                     </div>
                 </div>
             </div>
-            // </div >
         )
     }
 }

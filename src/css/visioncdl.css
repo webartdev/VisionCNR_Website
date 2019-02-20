@@ -109,6 +109,44 @@ border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;
       margin-bottom: 30px;
       font-family: Verdana, sans-serif;
   } 
+  .h1 {
+    font-size: 28px;
+    color: #336699;
+    font-weight: normal;
+    font-family: Verdana, sans-serif;
+}
+.h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #336699;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: Verdana, sans-serif;
+    text-align: left;
+}
+.h3 {
+    font-size: 16px;
+    color: #336699;
+    font-weight: bolder;
+    font-family: Verdana, sans-serif;
+}
+.h4 {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: Verdana, sans-serif;
+} 
+ .h5 {
+    font-size: 14px;
+    line-height: 1.375em;
+    color: #336699;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: Verdana, sans-serif;
+} 
     
    .navTitle{
       font-size:14px;
