@@ -192,8 +192,8 @@ li {
 .App-link {
   color: #ccc;
   height:10px;
-  width:100%;
-  padding: 10px;
+  width:80%;
+  padding: 6px;
   margin: 1px;
   display: flex;
   flex-direction: row;
@@ -204,7 +204,7 @@ li {
   text-decoration: 'none';
   list-style: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 22px;
+  font-size: 18px;
 
 }
 
