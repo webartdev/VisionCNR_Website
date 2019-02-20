@@ -7,7 +7,7 @@ const Appointments = () => (
 
         {/* <!-- Container (Contact Section) --> */}
         <div id="contact" className="container-fluid">
-        <div className="titleMain">LOCATIONS and CONTACT</div> <br />
+        <div className="titleMain">APPOINTMENTS and CONTACT INFO</div> <br />
             <div className="row">
                 <div className="col-sm-5">
                     <p><strong>PHONE: 425-213-1016 - for all clinics  </strong></p>
@@ -26,10 +26,10 @@ const Appointments = () => (
                 <div className="col-sm-1"> </div>
                 <div className="col-sm-6">
                     <div className="imgBg text-center">
-                    <div className="body-text"><a href="appointment.php">Schedule Appointment</a></div>
-                        <a href="appointment.php"><img src="images/photos/schedule.jpg" style={{ maxWidth: 300 }} /></a>
+                    <div className="body-text">Schedule Appointment</div>
+                        <img src="images/photos/schedule.jpg" style={{ maxWidth: 300 }} />
                         <br /><br />
-                        <a href="appointment.php"><div className="btn btn-success">Schedule</div></a>
+                        <div className="btn btn-success">Schedule</div>
                     </div>
                 </div>
             </div>

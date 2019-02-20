@@ -80,8 +80,8 @@ class Home extends React.Component {
                         </div>
                         <div className="col-sm-2">
                             <div className="imgBg text-center">
-                                <h6><a href="tools.php">Vision<br />Technology</a></h6>
-                                <a href="tools.php">
+                                <h6><a href="#therapy">Vision<br />Technology</a></h6>
+                                <a href="#therapy">
                                     <img alt="Vision Technology" width="100%"
                                         height="100%" src={require("../images/photos/VisionTechnology.jpg")} style={{ maxWidth: 300 }} />
                                 </a>
@@ -90,8 +90,8 @@ class Home extends React.Component {
                         </div>
                         <div className="col-sm-2">
                             <div className="imgBg text-center">
-                                <h6><a href="reading.php">Vision-in-<br />Reading</a></h6>
-                                <a href="reading.php">
+                                <h6><a href="#therapy">Vision-in-<br />Reading</a></h6>
+                                <a href="#therapy">
                                     <img alt="Vision-in-Reading Evaluation" width="100%"
                                         height="100%" src={require("../images/photos/Vision-in-ReadingEval.jpg")} style={{ maxWidth: 300 }} />
                                 </a>
@@ -214,18 +214,18 @@ class Home extends React.Component {
 
                 {/* <!-- Container (Referrals Section) --> */}
                 <div id="referrals" className="container-fluid text-center">
-                <div className="titleMain">REFERRALS</div><br />
-                    <p><a className="btn btn-success" href="images/ReferralForm_2018.pdf" target="_blank">
+                <div className="titleMain">REFERRALS</div>
+                    <p><a className="btn btn-success" href={require("../images/ReferralForm_2018.pdf")} alt="referral form" target="_blank">
                         Download our<br /><b>PROFESSIONAL REFERRAL FORM</b></a>  </p>
                     <br />
                     <div className="row text-left">
                         <div className="row">
                             <div className="col-sm-2"></div>
                             <div className="col-sm-4">
-                                <h4 className="text-left">Many patients come to the Vision Clinic through a referral from another professional.  Those making referrals include:  Pediatricians, Medical Doctors, Eye Doctors (Optometrists & Ophthalmologists), Occupational Therapists, Physical Therapists, Speech Language Therapists, Psychologists, Chiropractors, Educators (Teachers or School Nurses) and others.</h4>
+                                <h4 className="body-text">Many patients come to the Vision Clinic through a referral from another professional.  Those making referrals include:  Pediatricians, Medical Doctors, Eye Doctors (Optometrists & Ophthalmologists), Occupational Therapists, Physical Therapists, Speech Language Therapists, Psychologists, Chiropractors, Educators (Teachers or School Nurses) and others.</h4>
                             </div>
                             <div className="col-sm-4">
-                                <h4 className="text-left">It is not necessary to have a referral to schedule an appointment with Dr. Pearson.  </h4>
+                                <h4 className="body-text">It is not necessary to have a referral to schedule an appointment with Dr. Pearson.  </h4>
                             </div>
                             <div className="col-sm-2"></div>
                         </div>
@@ -236,7 +236,7 @@ class Home extends React.Component {
                 <div id="insurance" className="container-fluid bg-grey">
                     <div className="text-center">
                     <div className="titleMain">INSURANCE</div>
-                        <h4>Some of our services may be covered by insurance</h4>
+                        <h4 className="body-text">Some of our services may be covered by insurance</h4>
                     </div>
                     <div className="row">
                         <div className="col-sm-4 col-xs-12">
@@ -245,6 +245,7 @@ class Home extends React.Component {
                                     <div className="navTitle">Private Pay</div>
                                 </div>
                                 <div className="panel-body">
+                                <br/>
                                     <p><strong>Monthly Tuition</strong>&nbsp;4 Sessions</p>
                                     <p><strong>Quarterly Tuition</strong>&nbsp;12 Sessions</p>
                                     <p><strong>Yearly Tuition</strong>&nbsp;42 Sessions</p>
@@ -252,8 +253,8 @@ class Home extends React.Component {
                                 </div>
                                 <div className="panel-footer">
                                     <h5>PREPAID</h5>
-                                    <h4>Payment plans available</h4>
-                                    <a href="insurance.php"><button className="btn btn-lg">More Info</button></a>
+                                    <h4 className="body-text">Payment plans available</h4>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -263,6 +264,7 @@ class Home extends React.Component {
                                     <div className="navTitle">Insurance Based</div>
                                 </div>
                                 <div className="panel-body">
+                                <br/>
                                     <p><strong>Premera - </strong> Out of Network</p>
                                     <p><strong>Regence - </strong> In Network</p>
                                     <p><strong>Molina - </strong> In Network</p>
@@ -271,9 +273,9 @@ class Home extends React.Component {
                                 </div>
                                 <div className="panel-footer">
                                     <h5>MEDICAL PROCEDURES ONLY</h5>
-                                    <h4>Billed to Insurance first</h4>
-                                    <h4>Subject to Copays, Deductibles, and Coinsurance</h4>
-                                    <a href="insurance.php"><button className="btn btn-lg">More Info</button></a>
+                                    <h4 className="body-text">Billed to Insurance first</h4>
+                                    <h4 className="body-text">Subject to Copays, Deductibles, and Coinsurance</h4>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -283,18 +285,19 @@ class Home extends React.Component {
                                     <div className="navTitle">Combination</div>
                                 </div>
                                 <div className="panel-body">
+                                <br/>
                                     <p><strong>Medical Ins. - </strong> for medical procedures only</p>
                                     <p><strong>Private Pay - </strong> for non-medical procedures</p>
                                     <p><strong>Private Pay - </strong> for non-covered procedrues</p>
                                 </div>
                                 <div className="panel-footer">
                                     <h5>PREPAID</h5>
-                                    <h4>for non-medical procedrues</h4>
-                                    <h4>for non-covered procedrues</h4>
+                                    <h4 className="body-text">for non-medical procedrues</h4>
+                                    <h4 className="body-text">for non-covered procedrues</h4>
                                     <h5>COVERED MEDICAL</h5>
-                                    <h4>billed to insurance plan</h4>
-                                    <h4>Subject to Copays, Deductibles, and Coinsurance</h4>
-                                    <a href="insurance.php"><button className="btn btn-lg">More Info</button></a>
+                                    <h4 className="body-text">billed to insurance plan</h4>
+                                    <h4 className="body-text">Subject to Copays, Deductibles, and Coinsurance</h4>
+                                    
                                 </div>
                             </div>
                         </div>
