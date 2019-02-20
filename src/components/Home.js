@@ -222,10 +222,10 @@ class Home extends React.Component {
                         <div className="row">
                             <div className="col-sm-2"></div>
                             <div className="col-sm-4">
-                                <h4 className="body-text">Many patients come to the Vision Clinic through a referral from another professional.  Those making referrals include:  Pediatricians, Medical Doctors, Eye Doctors (Optometrists & Ophthalmologists), Occupational Therapists, Physical Therapists, Speech Language Therapists, Psychologists, Chiropractors, Educators (Teachers or School Nurses) and others.</h4>
+                                <h4 className="body-text" style={{padding:10}}>Many patients come to the Vision Clinic through a referral from another professional.  Those making referrals include:  Pediatricians, Medical Doctors, Eye Doctors (Optometrists & Ophthalmologists), Occupational Therapists, Physical Therapists, Speech Language Therapists, Psychologists, Chiropractors, Educators (Teachers or School Nurses) and others.</h4>
                             </div>
                             <div className="col-sm-4">
-                                <h4 className="body-text">It is not necessary to have a referral to schedule an appointment with Dr. Pearson.  </h4>
+                                <h4 className="body-text" style={{padding:10}}>It is not necessary to have a referral to schedule an appointment with Dr. Pearson.  </h4>
                             </div>
                             <div className="col-sm-2"></div>
                         </div>

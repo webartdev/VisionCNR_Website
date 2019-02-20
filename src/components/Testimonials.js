@@ -3,12 +3,15 @@ import Posts from './Post';
 import PostForm from './PostForm';
 
 const Testimonials = () => (
-    <div className="containerMain"><span className="titleMain">
-        Add Testimonial
+    <div className="container-fluid">
+        <span className="titleMain">
+            Add Testimonial
     </span>
-        <PostForm />
-        <hr />
-        <Posts />
+        <div className="container-fluid" style={{color:'#336699', padding:10}}>
+            <PostForm />
+            <hr />
+            <Posts />
+        </div>
     </div>
 );
 
