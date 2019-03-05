@@ -1,11 +1,10 @@
 .App {
   text-align: left;
-  
 }
 
 body {
   background-color: #ccc;
-  width:99%;
+  width: 99%;
 }
 .body-text {
   text-align: left;
@@ -56,7 +55,7 @@ h4 {
   font-weight: 400;
   margin-bottom: 30px;
   font-family: Verdana, sans-serif;
-} 
+}
 h5 {
   font-size: 14px;
   line-height: 1.375em;
@@ -64,7 +63,7 @@ h5 {
   font-weight: 400;
   margin-bottom: 30px;
   font-family: Verdana, sans-serif;
-} 
+}
 .h1 {
   font-size: 28px;
   color: #336699;
@@ -94,7 +93,7 @@ h5 {
   font-weight: 400;
   margin-bottom: 30px;
   font-family: Verdana, sans-serif;
-} 
+}
 .h5 {
   font-size: 14px;
   line-height: 1.375em;
@@ -102,22 +101,34 @@ h5 {
   font-weight: 400;
   margin-bottom: 30px;
   font-family: Verdana, sans-serif;
-} 
+}
 
 .containerMain {
   margin: 0px;
+  padding: 20px;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .titleMain {
   margin: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 32px;
   font-weight: bold;
   text-align: center;
   color: #336699;
-  padding:20px;
+  padding: 20px;
+}
+
+.titlePhoto {
+  margin: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: bottom;
+  color: #ffffff;
+  /* padding: 20px; */
 }
 
 .containerInner {
@@ -127,15 +138,15 @@ h5 {
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-  top:2px;
+  top: 2px;
   margin-right: 140px;
   width: 80px;
 }
 
 .is-active {
- font-weight: bold;
- text-decoration: 'none';
- color: white;
+  font-weight: bold;
+  text-decoration: "none";
+  color: white;
 }
 
 .App-header {
@@ -150,7 +161,7 @@ h5 {
   color: white;
   margin: 0px;
   padding-top: 5px;
-  text-decoration: 'none',
+  text-decoration: "none";
 }
 
 .buttonNav {
@@ -162,7 +173,7 @@ h5 {
   border-color: #ffffff;
   margin: 0px;
   align-self: stretch;
-  text-decoration: 'none';
+  text-decoration: "none";
 }
 
 .buttonText {
@@ -171,47 +182,94 @@ h5 {
   margin-left: 5;
   margin-right: 5;
   align-self: stretch;
-  text-decoration: 'none';
+  text-decoration: "none";
   color: #fff;
   font-size: 14px;
 }
 
-.textareaStyle{
+.textareaStyle {
   padding: 8px;
-  max-width:300px;
-  width:100%;
+  max-width: 300px;
+  width: 100%;
 }
-.inputStyle{
+.inputStyle {
   padding: 8px;
-  max-width:300px;
-  width:100%;
+  max-width: 300px;
+  width: 100%;
 }
 li {
-  text-decoration: 'none';
+  text-decoration: "none";
   list-style: none;
-  color:white;
+  color: white;
 }
-
+.unordered {
+  color: #333333;
+}
+.therapy {
+  background: url("./images/photos/btnLearnMoreAll.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  margin: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  min-width: 150px;
+}
+.tech {
+  background: url("./images/photos/V-Technology.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  margin: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  min-width: 150px;
+}
+.reading {
+  background: url("./images/photos/V-in-Reading.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  margin: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  min-width: 150px;
+}
+.eval {
+  background: url("./images/photos/IMG_girlsVT.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  margin: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  min-width: 150px;
+}
 .App-link {
   color: #ccc;
-  height:10px;
-  width:80%;
-  padding: 6px;
+  height: 90%;
+  width: 90%;
+  padding: 5px;
   margin: 1px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  top:10px;
+  top: 10px;
   text-underline-position: above;
-  text-decoration: 'none';
+  text-decoration: "none";
   list-style: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 18px;
-
 }
-
-
 
 @keyframes App-logo-spin {
   from {
