@@ -1,7 +1,7 @@
 import React from "react";
 import "../../src/css/visioncdl.css";
 import { Link } from "react-router-dom";
-import Section from "./Section";
+import Section from "./ImgTherapy";
 import ImgEval from "./ImgEval";
 import ImgTech from "./ImgTech";
 import Evaluations from "./Evaluations";
@@ -24,8 +24,8 @@ class Home extends React.Component {
     // var image4 = new Image();
     // image4.src = "images/slides/3D_Bg_V-Technology.jpg";
 
-    console.log(this.state);
-    const { count } = this.state;
+    //console.log(this.state);
+    //const { count } = this.state;
 
     return (
       <div className="containerMain">
@@ -46,7 +46,7 @@ class Home extends React.Component {
                 width="100%"
                 alt="Logo VisionCNR"
               />
-              <span>Bellevue and Bothell, WA</span>
+              <h3>Bellevue and Bothell, WA</h3>
             </div>
             <div className="col-sm-2">
               <ImgEval />
@@ -74,8 +74,8 @@ class Home extends React.Component {
           <div className="row">
             <div className="col-sm-8">
               <div className="body-text">
-                Vision Clinics of Development and Learning in Bellevue and
-                Bothell, WA offers Functional Vision Evaluations and Vision
+                Vision Clinics of Neuro-Optometric Rehabilitation in Bellevue
+                and Bothell, WA offers Functional Vision Evaluations and Vision
                 Therapy treatment services. We provide evaluation and treatment
                 of visual skills dysfunctions, especially related to special
                 needs, autism, learning disabilities, dyslexia, attention
