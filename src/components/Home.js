@@ -40,7 +40,7 @@ class Home extends React.Component {
         {/* Start Container (Home Section)  */}
         <div id="home" align="center" style={{ backgroundColor: "#fff" }}>
           <div className="row text-center">
-            <div className="col-sm-4">
+            <div className="col-sm-3">
               <img
                 src={require("../images/logos/VisionCNR_LOGO_web.jpg")}
                 width="100%"
@@ -48,19 +48,15 @@ class Home extends React.Component {
               />
               <h3>Bellevue and Bothell, WA</h3>
             </div>
-            <div className="col-sm-2">
+            <div className="col-sm-3">
               <ImgEval />
             </div>
             <br />
-            <div className="col-sm-2">
+            <div className="col-sm-3">
               <Section />
             </div>
             <br />
-            <div className="col-sm-2">
-              <ImgTech />
-            </div>
-            <br />
-            <div className="col-sm-2">
+            <div className="col-sm-3">
               <ImgReading />
             </div>
           </div>
@@ -72,7 +68,7 @@ class Home extends React.Component {
           <div className="titleMain">ABOUT OUR CLINIC</div>
           <br />
           <div className="row">
-            <div className="col-sm-8">
+            <div className="col-sm-12">
               <div className="body-text">
                 Vision Clinics of Neuro-Optometric Rehabilitation in Bellevue
                 and Bothell, WA offers Functional Vision Evaluations and Vision
@@ -94,9 +90,7 @@ class Home extends React.Component {
                 thinking that are needed for success today.
               </div>
             </div>
-            <div className="col-sm-4">
-              <Section />
-            </div>
+            
           </div>
         </div>
 
