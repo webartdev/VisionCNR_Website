@@ -1,11 +1,7 @@
 import React from "react";
 import "../../src/css/visioncdl.css";
-import { Link } from "react-router-dom";
 import Section from "./ImgTherapy";
 import ImgEval from "./ImgEval";
-import ImgTech from "./ImgTech";
-import Evaluations from "./Evaluations";
-import Therapy from "./Therapy";
 import ImgReading from "./ImgReading";
 
 class Home extends React.Component {
@@ -14,29 +10,13 @@ class Home extends React.Component {
   countClicks = () => {
     this.setState({ count: this.state.count + 1 });
   };
-  render() {
-    // var image1 = new Image();
-    // image1.src = "images/slides/3D_Bg_FunctionalVEval.jpg";
-    // var image2 = new Image();
-    // image2.src = "images/slides/3D_Bg_VTherapy.jpg";
-    // var image3 = new Image();
-    // image3.src = "images/slides/3D_Bg_V-in-Reading.jpg";
-    // var image4 = new Image();
-    // image4.src = "images/slides/3D_Bg_V-Technology.jpg";
 
-    //console.log(this.state);
-    //const { count } = this.state;
+  render() {
+    console.log(this.state);
+    // const count = this.state.count;
 
     return (
       <div className="containerMain">
-        {/* <h1> Welcome</h1>
-                <div onClick={this.countClicks}>
-                    Click here to increment the counter
-                    <b> {this.state.count}
-                    </b>
-                </div>
-                <h4>You clicked {count} times</h4> */}
-
         {/* Start Container (Home Section)  */}
         <div id="home" align="center" style={{ backgroundColor: "#fff" }}>
           <div className="row text-center">
@@ -66,7 +46,10 @@ class Home extends React.Component {
         {/* <!-- Container (About Section) --> */}
         <div id="about" className="container-fluid bg-grey">
           <div className="titleMain">ABOUT OUR CLINIC</div>
-          <br />
+          {/* <div onClick={this.countClicks}>
+                    [ Click here to like our clinic ]
+                </div>
+                <h4>Total likes: {count} </h4> */}
           <div className="row">
             <div className="col-sm-12">
               <div className="body-text">
@@ -93,13 +76,6 @@ class Home extends React.Component {
             
           </div>
         </div>
-
-        {/* Container Evaluations */}
-        {/* <Evaluations /> */}
-
-        {/* Container Therapy */}
-        {/* <Therapy /> */}
-
         {/* <!-- Container (Referrals Section) --> */}
         <div id="referrals" className="container-fluid text-center">
           <div className="titleMain">REFERRALS</div>
@@ -139,7 +115,6 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-        {/* <?require_once ('config/testimonials.php'); ?> */}
         {/* <!-- Container (Pricing Section) --> */}
         <div id="insurance" className="container-fluid bg-grey">
           <div className="text-center">
